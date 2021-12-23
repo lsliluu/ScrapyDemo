@@ -1,4 +1,4 @@
-# Scrapy settings for ScrapyDemo project
+# Scrapy settings for StockDemo project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'ScrapyDemo'
+BOT_NAME = 'StockDemo'
 
-SPIDER_MODULES = ['ScrapyDemo.spiders']
-NEWSPIDER_MODULE = 'ScrapyDemo.spiders'
+SPIDER_MODULES = ['StockDemo.spiders']
+NEWSPIDER_MODULE = 'StockDemo.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'ScrapyDemo (+http://www.yourdomain.com)'
+#USER_AGENT = 'StockDemo (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'ScrapyDemo.middlewares.ScrapydemoSpiderMiddleware': 543,
+#    'StockDemo.middlewares.StockDemoSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'ScrapyDemo.middlewares.ScrapydemoDownloaderMiddleware': 543,
+#    'StockDemo.middlewares.StockDemoDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'ScrapyDemo.pipelines.ScrapydemoPipeline': 300,
+#    'StockDemo.pipelines.StockDemoPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
